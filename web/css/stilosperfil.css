@@ -1,0 +1,290 @@
+ *{  justify-content: center;
+ }
+     .bo{
+     background-image: url(holqa.jpg);
+    
+	background-size:100%;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	background-attachment:fixed;
+        text-align: center;
+     }
+header{
+    white-space: 500px;
+
+    background:rgba(146,43,33,0.6);
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:50%;}
+/*end reset*/
+body{
+	background:url(../imgd/logo2.png);
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	font-family: 'Fjalla One', sans-serif;
+}
+h1{
+	font-size:50px;
+	padding-top:50px;
+	text-align:center;
+	color:#000;
+}
+.content-agile{
+	width:60%;
+	margin:60px auto;
+}
+.profile-agileinfo {
+   width: 60%;
+    float: none;
+     background:rgba(146,43,33,0.6); 
+   text-align: center;
+}
+.pr-inner{
+	padding:50px;
+}
+.pr-inner img{
+	border-radius:50%;
+	border:3px solid #9d0000;
+}
+.content-agile h2{
+	font-size:25px;
+	color:#000;
+	margin:20px 0 15px 0;
+}
+.content-agile h3{
+	font-size:15px;
+	color:#FFE;
+}
+.mail-left {
+    float: left;
+    width: 50%;	 
+}
+.contact-right{
+ float: left;
+    width: 50%;
+}
+.mail-left span {
+    color:#ac2925;
+    margin-right: 0.5em;
+}
+.contact-right span {
+    color: #ac2925;
+    margin-right: 0.5em;
+}
+.mail-left a {
+    color: #000;
+}
+.contact-right p{
+  color: #000;
+}
+.mail {
+    margin: 1em 0;
+}
+.profile-bottom-w3-part2-left,.profile-bottom-w3-part2-middle,.profile-bottom-w3-part2-right{
+	width:33.3%;
+	float:left;
+ margin: 2em 0;
+}
+.profile-bottom-w3-part1-right h2{
+	margin-top:10px;
+}
+.profile-bottom-w3-part1-right h2 ,.profile-bottom-w3-part2 h4{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+	font-weight:600;
+}
+.profile-bottom-w3-part2 h4 {
+    color:#000;
+}
+.mi{
+    background-image: url(css/imgd/settings.png);
+    
+}
+.profile-bottom-w3-part1-right h3 ,.profile-bottom-w3-part2 h5{
+    text-align: center;
+    color: #ac2925;
+    font-size: 20px;
+}
+.profile-bottom {
+    padding: 2em 0;
+}
+.agileinfo-copyright.text-center p {
+    color: #fff;
+    margin: 2em 0;
+    text-align: center;
+}
+.agileinfo-copyright.text-center p a{
+color:#3dff00;
+}
+.agileinfo-copyright.text-center p a:hover{
+color:#fff;
+}
+@media(max-width:1440px){
+}
+@media(max-width:1366px){
+}
+@media(max-width:1280px){
+}
+@media(max-width:1080px){
+.bo content-agile {
+    width: 55%;
+    margin: 50px auto;
+}
+}@media(max-width:1024px){
+}
+@media(max-width:991px){
+}
+@media(max-width:800px){
+.content-agile {
+    width: 65%;
+    margin: 50px auto;
+}
+}
+@media(max-width:768px){
+}
+@media(max-width:736px){
+h1 {
+    font-size: 45px;
+}
+}
+@media(max-width:667px){
+.profile-agileinfo {
+    width: 100%;
+}
+}
+
+@media(max-width:640px){
+}
+@media(max-width:600px){
+.content-agile {
+    width: 77%;
+    margin: 50px auto;
+}
+}
+@media(max-width:568px){
+}
+@media(max-width:480px){
+.content-agile {
+    width: 84%;
+    margin: 50px auto;
+}
+h1 {
+    font-size: 35px;
+}
+h1 {
+    padding-top: 35px;
+}
+}
+@media(max-width:414px){
+.profile-bottom-w3-part1-right h2, .profile-bottom-w3-part2 h4 {
+    font-size: 20px;
+}
+.profile-bottom-w3-part1-right h3, .profile-bottom-w3-part2 h5 {
+    font-size: 15px;
+}
+.login-left ul li a {
+    font-size: 16px;
+}
+}
+@media(max-width:384px){
+.content-agile h2 {
+    font-size: 20px;
+}
+.login-left h3 {
+    font-size: 20px;
+}
+}
+@media(max-width:375px){
+.content-agile {
+    width: 94%;
+    margin: 50px auto;
+}
+}
+@media(max-width:320px){
+h1 {
+    padding-top: 25px;
+}
+.content-agile {
+    width: 94%;
+    margin: 22px auto;
+}
+.mail-left {
+    float: none;
+    width: 76%;
+    margin: 25px auto;
+}
+.contact-right {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+}
+.agileinfo-copyright.text-center p {
+    font-size: 0.9em;
+}
+.profile-bottom-w3-part1-right h2, .profile-bottom-w3-part2 h4 {
+    letter-spacing: 3px;
+}
+}
+.sub-main{
+  width: 30%;
+  margin:22px;
+  float: left;
+}
+.button-two {
+  border-radius: 4px;
+  background-color:#d35400;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}

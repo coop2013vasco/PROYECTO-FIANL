@@ -1,0 +1,125 @@
+*{
+        justify-content: center;
+        margin: 0 auto;
+        -moz-box-flex: 0;
+        -ms-box-flex: 0;
+        -webkit-box-flex: 0;
+}
+body{
+    text-align: center;
+	background-image:url(imgd/fondop.jpg);
+        max-width: 100%;
+	background-size:100%;
+	background-attachment:fixed;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+header{
+    background:rgba(146,43,33,0.8);
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.log1{
+    background:rgba(146,43,33,0.8);
+    font-size: 15px;
+    padding: 60px;
+    margin-top: 40px;
+    text-align: center;
+    width: 350px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+.i1{
+    width: 270px;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+@media (min-width: 0px) and (max-width: 440px) {
+    
+    header{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    width: 89%;
+    max-width: 100%;
+    -webkit-width: 89%;
+    -webkit-max-width: 100%;
+     -moz-width: 89%;
+    -moz-max-width: 100%;
+    -ms-width: 89%;
+    -ms-max-width: 100%;
+    }
+    
+    .log1{
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+    width: 80%;
+    max-width: 100%;
+    -webkit-width: 75%;
+    -webkit-max-width: 100%;
+     -moz-width: 75%;
+    -moz-max-width: 100%;
+    -ms-width: 75%;
+    -ms-max-width: 100%;
+     border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+.i1{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+}
+
+@media (min-width: 441px) and (max-width: 640px) {
+    
+    header{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    width: 89%;
+    max-width: 100%;
+    -webkit-width: 89%;
+    -webkit-max-width: 100%;
+     -moz-width: 89%;
+    -moz-max-width: 100%;
+    -ms-width: 89%;
+    -ms-max-width: 100%;
+    }
+    
+    .log1{
+    font-size: 15px;
+    padding: 25px;
+    margin-top: 40px;
+    text-align: center;
+    width: 65%;
+    max-width: 100%;
+    -webkit-width: 65%;
+    -webkit-max-width: 100%;
+     -moz-width: 65%;
+    -moz-max-width: 100%;
+    -ms-width: 65%;
+    -ms-max-width: 100%;
+     border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+.i1{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+}
